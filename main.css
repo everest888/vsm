@@ -1,0 +1,202 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    /*width: 1920px;*/
+}
+
+div,
+p,
+input,
+button,
+form,
+span,
+a,
+ul,
+li {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    line-height: 1.66em;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header {
+    background: rgba(78, 189, 254, 1);
+    background: -moz-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78, 189, 254, 1)), color-stop(100%, rgba(55, 144, 217, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    background: linear-gradient(135deg, rgba(78, 189, 254, 1) 0%, rgba(55, 144, 217, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#4ebdfe', endColorstr='#3790d9', GradientType=1);
+    padding-top: 60px;
+    padding-bottom: 145px;
+    color: #ffffff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.offer {
+    width: 564px;
+    margin-top: 156px;
+}
+
+.title {
+    font-size: 36px;
+    letter-spacing: 3px;
+    width: 575px;
+    line-height: 1.7em;
+    animate__fadeInLeft: 2s;
+}
+
+.title span {
+    font-size: 60px;
+    line-height: 1.75em;
+}
+
+.kartinka {
+    margin: auto;
+}
+
+.intro {
+    margin-top: 50px;
+    margin-bottom: 45px;
+    width: 415px;
+    font-size: 16px;
+}
+
+.btn {
+    background: #ffd429;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 222px;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 213px;
+    color: black;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #f2c40a;
+}
+
+.learn {
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+
+.secnion-title {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.scills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scill {
+    background: url("../images/icon1.png") no-repeat top;
+    width: 300px;
+    padding-top: 90px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.scill-free {
+    background: url("../images/icon2.png") no-repeat top;
+}
+
+.scill-change {
+    background: url("../images/icon3.png") no-repeat top;
+}
+
+.mail {
+    background: #ecf3f8;
+    padding: 100px 0;
+}
+
+.form {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+}
+
+input {
+    width: 100%;
+    height: 45px;
+    display: block;
+    color: #aeacb2;
+    border: #bbbbbb 1px solid;
+    border-radius: 3px;
+}
+
+.knopka {
+    width: 100%;
+    height: 55px;
+    border: 0;
+    margin-bottom: 105px;
+}
+
+.footer {
+    padding: 58px 0;
+    background: #164d7a;
+}
+
+.credits {
+    margin: 0;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {width: 960px;}
+    .title {width: auto;}
+}
+@media screen and (max-width: 992px) {
+    .container {width: 720px;}
+    .wrapper{flex-direction: column;}
+    .offer {width: 100%}
+    .intro {width: auto;}
+    .kartinka{display: block;width: 641px; margin: auto 0}
+    .scills {flex-direction: column;}
+    .scill {width: auto; margin-bottom: 30px;}
+}
+@media screen and (max-width: 768px) {
+    .container {width: 540px;}
+    .kartinka {width: 100%;}
+    .input {width: 100%;}
+    .btn {margin-left: 0;margin-top: 15px;width: 100%;}
+}
+@media screen and (max-width: 576px) {
+    .container {width: 90%;}
+}
+
+
