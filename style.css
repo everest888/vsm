@@ -122,7 +122,7 @@ p {
 }
 
 .scill {
-    background: url("../images/icon1.png") no-repeat top;
+    background: url("icon1.jpg") no-repeat top;
     width: 300px;
     padding-top: 90px;
     text-align: center;
@@ -130,11 +130,11 @@ p {
 }
 
 .scill-free {
-    background: url("../images/icon2.png") no-repeat top;
+    background: url("icon2.jpg") no-repeat top;
 }
 
 .scill-change {
-    background: url("../images/icon3.png") no-repeat top;
+    background: url("icon3.jpg") no-repeat top;
 }
 
 .mail {
